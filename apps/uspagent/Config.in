@@ -1,0 +1,16 @@
+config PACKAGE_usp_agent
+    tristate
+    select SAH_SERVICES_USPAGENT
+
+if PACKAGE_usp_agent
+
+menu "Select usp_agent build options"
+    depends on PACKAGE_usp_agent
+
+config SAH_SERVICES_USPAGENT
+    bool "Build a USP agent"
+    default y
+
+endmenu
+
+endif
