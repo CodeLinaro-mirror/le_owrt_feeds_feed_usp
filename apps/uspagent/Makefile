@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=uspagent
-PKG_VERSION:=v3.5.13
+PKG_VERSION:=v3.6.0
 SHORT_DESCRIPTION:=USP agent as specified by TR-369
 
-PKG_SOURCE:=uspagent-v3.5.13.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/v3.5.13
-PKG_HASH:=67cbf9e803f1cf799a71b41df02e06cc38850c455b22ae35ae5cd1ece3205a98
-PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-v3.5.13
+PKG_SOURCE:=uspagent-v3.6.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/v3.6.0
+PKG_HASH:=4c936592ff5a18b972dd2b36376319f153afe8058b9fc525d0ba6f89b6a26308
+PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-v3.6.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,6 +19,7 @@ PKG_RELEASE:=1
 define SAHInit/Install
 	install -d ${PKG_INSTALL_DIR}/etc/rc.d/
 	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/etc/rc.d/S99$(COMPONENT)
+	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/etc/rc.d/K99$(COMPONENT)
 endef
 
 include $(INCLUDE_DIR)/package.mk
