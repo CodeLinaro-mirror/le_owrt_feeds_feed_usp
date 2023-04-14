@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-localagent
-PKG_VERSION:=v1.8.0
+PKG_VERSION:=v1.8.2
 SHORT_DESCRIPTION:=LocalAgent data model as specified by TR-181
 
-PKG_SOURCE:=tr181-localagent-v1.8.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-localagent/-/archive/v1.8.0
-PKG_HASH:=5a733258ea3883271fed8d3b25bf5dfe221b81bd04c26737e60d1abf41b1e8ce
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-localagent-v1.8.0
+PKG_SOURCE:=tr181-localagent-v1.8.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-localagent/-/archive/v1.8.2
+PKG_HASH:=3eb0fb313dcf92a63e5e26bc58e3c030a5494757d2ca1d24d81aeace392dd007
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-localagent-v1.8.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -19,7 +19,7 @@ PKG_RELEASE:=1
 define SAHInit/Install
 	install -d ${PKG_INSTALL_DIR}/etc/rc.d/
 	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/etc/rc.d/S98$(COMPONENT)
-	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/etc/rc.d/K98$(COMPONENT)
+	ln -sfr ${PKG_INSTALL_DIR}/etc/init.d/$(COMPONENT) ${PKG_INSTALL_DIR}/etc/rc.d/K48$(COMPONENT)
 endef
 
 include $(INCLUDE_DIR)/package.mk
