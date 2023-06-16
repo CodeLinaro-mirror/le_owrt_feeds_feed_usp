@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-localagent
-PKG_VERSION:=v1.10.0
+PKG_VERSION:=v1.10.1
 SHORT_DESCRIPTION:=LocalAgent data model as specified by TR-181
 
-PKG_SOURCE:=tr181-localagent-v1.10.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-localagent/-/archive/v1.10.0
-PKG_HASH:=3c0b3ebc26cd0f933a5cd1d93e2a8559f808fa49ed696d2941bb16d5dee2226c
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-localagent-v1.10.0
+PKG_SOURCE:=tr181-localagent-v1.10.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-localagent/-/archive/v1.10.1
+PKG_HASH:=ad88527ae305c348f10d23612c1454d02f41bb566a8bfe09dbf69b23de153506
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-localagent-v1.10.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
