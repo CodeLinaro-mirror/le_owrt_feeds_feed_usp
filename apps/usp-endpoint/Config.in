@@ -1,0 +1,28 @@
+config PACKAGE_usp-endpoint
+    tristate
+    select SAH_SERVICES_USP-ENDPOINT
+
+if PACKAGE_usp-endpoint
+
+menu "Select usp-endpoint build options"
+    depends on PACKAGE_usp-endpoint
+
+config SAH_SERVICES_USP-ENDPOINT
+    bool "Build mini USP agent or controller"
+    default y
+
+config SAH_SERVICES_USP-ENDPOINT_INSTALL_USPA
+    bool "Install uspa configuration files"
+    default n
+
+config SAH_SERVICES_USP-ENDPOINT_INSTALL_USPC
+    bool "Install uspc configuration files"
+    default n
+
+config SAH_SERVICES_USP-ENDPOINT_INSTALL_USPE
+    bool "Install uspe configuration files"
+    default n
+
+endmenu
+
+endif
