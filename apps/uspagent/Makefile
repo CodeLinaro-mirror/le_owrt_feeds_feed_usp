@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=uspagent
-PKG_VERSION:=v4.0.0
+PKG_VERSION:=v4.0.4
 SHORT_DESCRIPTION:=USP agent as specified by TR-369
 
-PKG_SOURCE:=uspagent-v4.0.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/v4.0.0
-PKG_HASH:=ff5be3a469a0cf29c6cbe5ec39f633e0f3637c62e7b6142804587404f1b9dc85
-PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-v4.0.0
+PKG_SOURCE:=uspagent-v4.0.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/v4.0.4
+PKG_HASH:=987f05458c66e909a3e312d6a25b1c1675984de893776684117c5a3bf7b1067d
+PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-v4.0.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
