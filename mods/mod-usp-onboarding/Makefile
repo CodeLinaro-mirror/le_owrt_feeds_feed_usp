@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=This module handles the typical onboarding procedure of a USP
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=v1.3.5
-PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/components/mod-usp-onboarding.git
+PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/mod-usp-onboarding.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
@@ -29,7 +29,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=usp
   SUBMENU:=Modules
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/components/mod-usp-onboarding
+  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/mod-usp-onboarding
   DEPENDS += +libamxc
   DEPENDS += +libamxp
   DEPENDS += +libamxd
