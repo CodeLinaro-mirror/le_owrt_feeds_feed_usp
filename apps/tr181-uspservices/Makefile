@@ -1,16 +1,15 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-uspservices
-PKG_VERSION:=v0.2.1
+PKG_VERSION:=v0.2.2
 SHORT_DESCRIPTION:=TR-181 USPServices application
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.2.1
-PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/tr181-uspservices.git
-PKG_MIRROR_HASH:=skip
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
+PKG_SOURCE:=tr181-uspservices-v0.2.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-uspservices/-/archive/v0.2.2
+PKG_HASH:=fd08fd859b4fb62b0b56ba81f5f38590e57986b4a905d613ca58c565c428b123
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uspservices-v0.2.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
-PKG_LICENSE:=
+PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
 COMPONENT:=tr181-uspservices
@@ -29,7 +28,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=usp
   SUBMENU:=Applications
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/tr181-uspservices
+  URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-uspservices
   DEPENDS += +libamxc
   DEPENDS += +libamxp
   DEPENDS += +libamxd
