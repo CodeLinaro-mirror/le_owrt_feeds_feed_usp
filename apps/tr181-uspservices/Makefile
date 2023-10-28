@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-uspservices
-PKG_VERSION:=v0.2.2
+PKG_VERSION:=v0.2.3
 SHORT_DESCRIPTION:=TR-181 USPServices application
 
-PKG_SOURCE:=tr181-uspservices-v0.2.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-uspservices/-/archive/v0.2.2
-PKG_HASH:=fd08fd859b4fb62b0b56ba81f5f38590e57986b4a905d613ca58c565c428b123
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uspservices-v0.2.2
+PKG_SOURCE:=tr181-uspservices-v0.2.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-uspservices/-/archive/v0.2.3
+PKG_HASH:=a18be1433786f0f78d99557896b26f191990b4f637c6b3ce4575efd1cf16525b
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uspservices-v0.2.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -47,9 +47,6 @@ endef
 
 define Build/Install
 	$(call Build/Install/Default, install INSTALL=install D=$(PKG_INSTALL_DIR) DEST=$(PKG_INSTALL_DIR) STAGINGDIR=$(STAGING_DIR) CONFIGDIR=$(STAGING_DIR) PV=$(PKG_VERSION) PKG_CONFIG_LIBDIR=$(STAGING_DIR)/usr/lib/pkgconfig LIBDIR=/usr/lib INSTALL_LIB_DIR=/lib INSTALL_BIN_DIR=/bin RAW_VERSION=$(PKG_VERSION) HARDCO_HAL_DIR=$(STAGING_DIR)/usr/include)
-	find $(PKG_INSTALL_DIR) -name *.a -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.h -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.pc -exec rm {} +;
 
 	$(call SAHInit/Install)
 endef
@@ -63,6 +60,9 @@ define Package/$(PKG_NAME)/install
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
+	find $(1) -name *.a -exec rm {} +;
+	find $(1) -name *.h -exec rm {} +;
+	find $(1) -name *.pc -exec rm {} +;
 endef
 
 $(eval $(call BuildPackage,$(PKG_NAME)))

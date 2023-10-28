@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-localagent
-PKG_VERSION:=v2.3.2
+PKG_VERSION:=v2.3.4
 SHORT_DESCRIPTION:=LocalAgent data model as specified by TR-181
 
-PKG_SOURCE:=tr181-localagent-v2.3.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-localagent/-/archive/v2.3.2
-PKG_HASH:=fcd793dd8b295c434976419e058aded0e4ebf918641b9e340d50b97979da12a4
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-localagent-v2.3.2
+PKG_SOURCE:=tr181-localagent-v2.3.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-localagent/-/archive/v2.3.4
+PKG_HASH:=3e0fcea4f365d52b0f0ad1d557e0c98792a00bfc33eeec4acc6778b77f925e97
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-localagent-v2.3.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -52,9 +52,6 @@ endef
 
 define Build/Install
 	$(call Build/Install/Default, install INSTALL=install D=$(PKG_INSTALL_DIR) DEST=$(PKG_INSTALL_DIR) STAGINGDIR=$(STAGING_DIR) CONFIGDIR=$(STAGING_DIR) PV=$(PKG_VERSION) PKG_CONFIG_LIBDIR=$(STAGING_DIR)/usr/lib/pkgconfig LIBDIR=/usr/lib INSTALL_LIB_DIR=/lib INSTALL_BIN_DIR=/bin RAW_VERSION=$(PKG_VERSION) HARDCO_HAL_DIR=$(STAGING_DIR)/usr/include)
-	find $(PKG_INSTALL_DIR) -name *.a -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.h -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.pc -exec rm {} +;
 
 	$(call SAHInit/Install)
 endef
@@ -68,6 +65,9 @@ define Package/$(PKG_NAME)/install
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
+	find $(1) -name *.a -exec rm {} +;
+	find $(1) -name *.h -exec rm {} +;
+	find $(1) -name *.pc -exec rm {} +;
 endef
 
 $(eval $(call BuildPackage,$(PKG_NAME)))

@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=uspagent
-PKG_VERSION:=v4.5.0
+PKG_VERSION:=v4.5.1
 SHORT_DESCRIPTION:=USP agent as specified by TR-369
 
-PKG_SOURCE:=uspagent-v4.5.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/v4.5.0
-PKG_HASH:=1c21f1bf2cf9033c3892390ae30bc8e01fdcdea06aba4a5b59251d0a3e22746e
-PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-v4.5.0
+PKG_SOURCE:=uspagent-v4.5.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/v4.5.1
+PKG_HASH:=a6d474c01b64e015a3a4a2905aa2bd2c0b24d4ded91b16c67fb2143a2caa0088
+PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-v4.5.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -55,9 +55,6 @@ endef
 
 define Build/Install
 	$(call Build/Install/Default, install INSTALL=install D=$(PKG_INSTALL_DIR) DEST=$(PKG_INSTALL_DIR) STAGINGDIR=$(STAGING_DIR) CONFIGDIR=$(STAGING_DIR) PV=$(PKG_VERSION) PKG_CONFIG_LIBDIR=$(STAGING_DIR)/usr/lib/pkgconfig LIBDIR=/usr/lib INSTALL_LIB_DIR=/lib INSTALL_BIN_DIR=/bin RAW_VERSION=$(PKG_VERSION) HARDCO_HAL_DIR=$(STAGING_DIR)/usr/include)
-	find $(PKG_INSTALL_DIR) -name *.a -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.h -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.pc -exec rm {} +;
 
 	$(call SAHInit/Install)
 endef
@@ -71,6 +68,9 @@ define Package/$(PKG_NAME)/install
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
+	find $(1) -name *.a -exec rm {} +;
+	find $(1) -name *.h -exec rm {} +;
+	find $(1) -name *.pc -exec rm {} +;
 endef
 
 $(eval $(call BuildPackage,$(PKG_NAME)))
