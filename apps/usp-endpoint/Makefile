@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=usp-endpoint
-PKG_VERSION:=v2.0.5
+PKG_VERSION:=v2.0.6
 SHORT_DESCRIPTION:=Mini USP agent or controller
 
-PKG_SOURCE:=usp-endpoint-v2.0.5.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/v2.0.5
-PKG_HASH:=88d7c05e7a8f4f1933b78f94feb3b8f435d516d07da6ac415068b2f61b66b010
-PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-v2.0.5
+PKG_SOURCE:=usp-endpoint-v2.0.6.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/v2.0.6
+PKG_HASH:=d96c82798d1939c6dd252eb688cc013624fdfd9f35550bc71714c6b84b7c7c79
+PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-v2.0.6
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -57,9 +57,6 @@ endef
 
 define Build/Install
 	$(call Build/Install/Default, install INSTALL=install D=$(PKG_INSTALL_DIR) DEST=$(PKG_INSTALL_DIR) STAGINGDIR=$(STAGING_DIR) CONFIGDIR=$(STAGING_DIR) PV=$(PKG_VERSION) PKG_CONFIG_LIBDIR=$(STAGING_DIR)/usr/lib/pkgconfig LIBDIR=/usr/lib INSTALL_LIB_DIR=/lib INSTALL_BIN_DIR=/bin RAW_VERSION=$(PKG_VERSION) HARDCO_HAL_DIR=$(STAGING_DIR)/usr/include CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPA=$(CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPA) CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPC=$(CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPC) CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPE=$(CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPE))
-	find $(PKG_INSTALL_DIR) -name *.a -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.h -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.pc -exec rm {} +;
 
 	$(call SAHInit/Install)
 endef
@@ -73,6 +70,9 @@ define Package/$(PKG_NAME)/install
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
+	find $(1) -name *.a -exec rm {} +;
+	find $(1) -name *.h -exec rm {} +;
+	find $(1) -name *.pc -exec rm {} +;
 endef
 
 define Package/$(PKG_NAME)/config
