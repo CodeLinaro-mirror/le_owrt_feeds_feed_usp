@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-uspservices
-PKG_VERSION:=v0.3.1
+PKG_VERSION:=v0.3.2
 SHORT_DESCRIPTION:=TR-181 USPServices application
 
-PKG_SOURCE:=tr181-uspservices-v0.3.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-uspservices/-/archive/v0.3.1
-PKG_HASH:=8e1a0f68ea2990d725c87c16bd5af8bfe07e109ed90999993f6086b753264318
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uspservices-v0.3.1
+PKG_SOURCE:=tr181-uspservices-v0.3.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-uspservices/-/archive/v0.3.2
+PKG_HASH:=4e8890d9fb25eff63284117f5e07bd2d40312dd4818f1dc15afed63852968aa4
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uspservices-v0.3.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE

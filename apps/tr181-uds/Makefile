@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-uds
-PKG_VERSION:=v0.2.0
+PKG_VERSION:=v0.2.1
 SHORT_DESCRIPTION:=TR-181 UnixDomainSockets plugin
 
-PKG_SOURCE:=tr181-uds-v0.2.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-uds/-/archive/v0.2.0
-PKG_HASH:=b74688af3882917fa8cf22eca55d48f5336664ddf6aee123ab1c559f17fba801
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uds-v0.2.0
+PKG_SOURCE:=tr181-uds-v0.2.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-uds/-/archive/v0.2.1
+PKG_HASH:=c1230c390ed78a6a54ef43c3429b8f903de043f4a54ae7d17c65ddec6b976a25
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uds-v0.2.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
