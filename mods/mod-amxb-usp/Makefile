@@ -31,6 +31,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libimtp
   DEPENDS += +libusp
   DEPENDS += +libuspi
+  DEPENDS += +libsahtrace
   MENU:=1
 endef
 
