@@ -1,11 +1,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-amxb-usp
-PKG_VERSION:=dev_obuspa
+PKG_VERSION:=v5.1.1
 SHORT_DESCRIPTION:=USP backend implementation for amxb
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=dev_obuspa
+PKG_SOURCE_VERSION:=v5.1.1
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
