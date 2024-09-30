@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=usp-endpoint
-PKG_VERSION:=v2.0.8
+PKG_VERSION:=v2.0.9
 SHORT_DESCRIPTION:=Mini USP agent or controller
 
-PKG_SOURCE:=usp-endpoint-v2.0.8.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/v2.0.8
-PKG_HASH:=df9c8cdb1b50e2594ddd9866704d1349c13059153e12f33223c4d82ceeb45db5
-PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-v2.0.8
+PKG_SOURCE:=usp-endpoint-v2.0.9.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/v2.0.9
+PKG_HASH:=e0ab4c02ff75cdb45f30d225e9e7379adbfcf5dde22440613929c750182f6452
+PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-v2.0.9
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
