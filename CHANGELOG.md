@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.8 - 2025-03-10(18:07:21 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): Amx backend: RPC to reset a plugin statistics
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): amxb_usp_poll_response could timeout and return 0
+
 ## Release v10.0.7 - 2025-01-18(11:36:09 +0000)
 
 ### Other
