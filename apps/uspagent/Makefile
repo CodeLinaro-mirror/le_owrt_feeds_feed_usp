@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/soft.at.home/usp/applications/uspagent/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=uspagent
-PKG_VERSION:=v5.2.2
+PKG_VERSION:=v5.2.3
 SHORT_DESCRIPTION:=USP agent as specified by TR-369
 
-PKG_SOURCE:=uspagent-v5.2.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/v5.2.2
-PKG_HASH:=beab0788d0201f83eab2b710c6dc2805ef0ebee40b0544748eefe3f2be3bf527
-PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-v5.2.2
+PKG_SOURCE:=uspagent-v5.2.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/v5.2.3
+PKG_HASH:=f2fafef37c5a6145f3a3c787035e854b88c5a5594a90a8df79aa0130e689b878
+PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-v5.2.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -25,7 +27,7 @@ endef
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=usp
+  CATEGORY:=SoftAtHome
   SUBMENU:=Applications
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent
