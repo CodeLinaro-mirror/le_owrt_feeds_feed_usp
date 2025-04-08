@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.9 - 2025-04-08(16:12:29 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): uspagent: Messages initiated by an agent are not subject to ACL verification
+
 ## Release v10.0.8 - 2025-03-10(18:07:21 +0000)
 
 ### Other
