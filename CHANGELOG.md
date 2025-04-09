@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.10 - 2025-04-09(13:35:50 +0000)
+
+### Other
+
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): [Terminating dot][tr181] fix LocalAgent
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): - [python-amx] Feature: Add subscription and record of objects with USP
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): Objects can be bus specific
+
 ## Release v10.0.9 - 2025-04-08(16:12:29 +0000)
 
 ### Other
