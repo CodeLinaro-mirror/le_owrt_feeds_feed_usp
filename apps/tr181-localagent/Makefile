@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/soft.at.home/usp/applications/tr181-localagent/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-localagent
-PKG_VERSION:=v3.0.1
+PKG_VERSION:=v3.1.0
 SHORT_DESCRIPTION:=LocalAgent data model as specified by TR-181
 
-PKG_SOURCE:=tr181-localagent-v3.0.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-localagent/-/archive/v3.0.1
-PKG_HASH:=6872bac0064c1a7c8fb0906bd66580f62d5e4b6023f8c742247b9f2dc7d39b0e
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-localagent-v3.0.1
+PKG_SOURCE:=tr181-localagent-v3.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-localagent/-/archive/v3.1.0
+PKG_HASH:=7af16f779bf0c640b4519260ea8e19abd0f24c980da9cc25d7d0c98513420e6e
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-localagent-v3.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -25,7 +27,7 @@ endef
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=usp
+  CATEGORY:=SoftAtHome
   SUBMENU:=Applications
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-localagent
