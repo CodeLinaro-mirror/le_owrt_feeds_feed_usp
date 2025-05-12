@@ -1,0 +1,20 @@
+config PACKAGE_mod-usp-onboarding
+    tristate
+    select SAH_MOD_USP_ONBOARDING
+
+if PACKAGE_mod-usp-onboarding
+
+menu "Select mod-usp-onboarding build options"
+    depends on PACKAGE_mod-usp-onboarding
+
+config SAH_MOD_USP_ONBOARDING
+    bool "Handle USP onboarding procedure"
+    default y
+
+config SAH_MOD_USP_ONBOARDING_BOOT_EVENT_START_ORDER
+    int "Onboarding boot event start-up"
+    default 99
+
+endmenu
+
+endif
