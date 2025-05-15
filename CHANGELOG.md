@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.11 - 2025-05-15(09:10:47 +0000)
+
+### Other
+
+- [mod-usp-onboarding](https://gitlab.softathome.com/ext_prpl/components/mod-usp-onboarding): [Plugin shutdown] Init scripts That Should Only Run on Startup or Shutdown
+
 ## Release v10.0.10 - 2025-04-09(13:35:50 +0000)
 
 ### Other
