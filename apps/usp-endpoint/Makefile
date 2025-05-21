@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=usp-endpoint
-PKG_VERSION:=v2.0.9
+PKG_VERSION:=v2.0.10
 SHORT_DESCRIPTION:=Mini USP agent or controller
 
-PKG_SOURCE:=usp-endpoint-v2.0.9.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/v2.0.9
-PKG_HASH:=e0ab4c02ff75cdb45f30d225e9e7379adbfcf5dde22440613929c750182f6452
-PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-v2.0.9
+PKG_SOURCE:=usp-endpoint-v2.0.10.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/v2.0.10
+PKG_HASH:=ffb97594681bf8cc602ff3537b5d24603a83ddeeb0c1e2f2ba630063bef8ca27
+PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-v2.0.10
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -29,8 +31,8 @@ endef
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=ambiorix
-  SUBMENU:=Applications
+  CATEGORY:=SoftAtHome
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint
   DEPENDS += +libamxc
