@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.12 - 2025-05-22(11:06:42 +0000)
+
+### Other
+
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [uspc] Fix warnings at startup
+
 ## Release v10.0.11 - 2025-05-15(09:10:47 +0000)
 
 ### Other
