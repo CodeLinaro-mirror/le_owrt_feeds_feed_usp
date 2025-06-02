@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.13 - 2025-06-02(15:52:35 +0000)
+
+### Other
+
+- [mod-usp-onboarding](https://gitlab.softathome.com/ext_prpl/components/mod-usp-onboarding): - USP Onboarding: Use 'AgentMTPReference' parameter
+
 ## Release v10.0.12 - 2025-05-22(11:06:42 +0000)
 
 ### Other
