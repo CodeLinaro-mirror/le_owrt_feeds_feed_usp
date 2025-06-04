@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.14 - 2025-06-04(10:04:12 +0000)
+
+### Other
+
+- [tr181-uds](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-uds): adapt synt to prpl-foundation
+- [tr181-uds](https://gitlab.com/prpl-foundation/components/core/plugins/tr181-uds): [AppAmor][tr181-uds] AppAmor profile should be created for tr181-uds
+- [tr181-uspservices](https://gitlab.com/soft.at.home/usp/applications/tr181-uspservices): [AppAmor][tr181-uspservices] AppAmor profile should be created for tr181-uspservices
+
 ## Release v10.0.13 - 2025-06-02(15:52:35 +0000)
 
 ### Other
