@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-uds/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-uds
-PKG_VERSION:=v0.2.1
+PKG_VERSION:=sah-next_v0.3.0
 SHORT_DESCRIPTION:=TR-181 UnixDomainSockets plugin
 
-PKG_SOURCE:=tr181-uds-v0.2.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-uds/-/archive/v0.2.1
-PKG_HASH:=c1230c390ed78a6a54ef43c3429b8f903de043f4a54ae7d17c65ddec6b976a25
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uds-v0.2.1
+PKG_SOURCE:=tr181-uds-sah-next_v0.3.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-uds/-/archive/sah-next_v0.3.0
+PKG_HASH:=f967d0780f4d8f9abd602e22534e5ea016f243c1b9d036aa639a2992dfb40ae1
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uds-sah-next_v0.3.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -26,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Plugins
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-uds
   DEPENDS += +libamxc
