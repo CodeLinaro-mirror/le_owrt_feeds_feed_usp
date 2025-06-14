@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.15 - 2025-06-14(06:38:09 +0000)
+
+### Other
+
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): adapt synt to prpl-foundation
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): [USP] Coverity: dead code in uspl_error
+- [libuspi](https://gitlab.com/prpl-foundation/components/core/libraries/libuspi): adapt synt to prpl-foundation
+- [libuspi](https://gitlab.com/prpl-foundation/components/core/libraries/libuspi): [USP] Coverity: Possible negative fd passed to write
+- [mod-usp-onboarding](https://gitlab.softathome.com/ext_prpl/components/mod-usp-onboarding): - The onboarding does not start correctly when AgentMTPReference is prefixed
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): [AppAmor][tr181-localagent] AppAmor profile should be created for tr181-localagent
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): - Impossible to activate a subscription with ReferenceList = 'Device.LocalAgent.Subscription'.
+
 ## Release v10.0.14 - 2025-06-04(10:04:12 +0000)
 
 ### Other
