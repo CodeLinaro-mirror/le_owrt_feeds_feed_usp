@@ -1,15 +1,23 @@
-config PACKAGE_usp_agent
+config PACKAGE_uspagent
     tristate
     select SAH_SERVICES_USPAGENT
 
-if PACKAGE_usp_agent
+if PACKAGE_uspagent
 
-menu "Select usp_agent build options"
-    depends on PACKAGE_usp_agent
+menu "Select uspagent build options"
+    depends on PACKAGE_uspagent
 
 config SAH_SERVICES_USPAGENT
     bool "Build a USP agent"
     default y
+
+config SAH_SERVICES_USPAGENT_START_ORDER
+    int "Uspagent plugin start up order"
+    default 99
+
+config SAH_SERVICES_USPAGENT_STOP_ORDER
+    string "Uspagent plugin shutdown order"
+    default "01"
 
 endmenu
 
