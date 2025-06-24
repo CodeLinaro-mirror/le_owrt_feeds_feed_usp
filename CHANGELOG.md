@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.16 - 2025-06-24(19:32:15 +0000)
+
+### Other
+
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): - USP Agent: [USP] Fallback solution for USP only devices
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [Plugin shutdown] Data Loss Due to Filesystem Unmount Timing
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): - USP Agent: [USP] Fallback solution for USP only devices
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): - USP Agent: Suppress error code
+
 ## Release v10.0.15 - 2025-06-14(06:38:09 +0000)
 
 ### Other
