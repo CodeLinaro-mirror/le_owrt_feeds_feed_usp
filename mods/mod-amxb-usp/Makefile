@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-amxb-usp
-PKG_VERSION:=sah-next_v5.3.2
+PKG_VERSION:=sah-next_v5.3.3
 SHORT_DESCRIPTION:=USP backend implementation for amxb
 
-PKG_SOURCE:=amxb_usp-sah-next_v5.3.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp/-/archive/sah-next_v5.3.2
-PKG_HASH:=4dc8e6ca6b261a8900582a2d8654c865d420427e478eaf384b88710635088657
-PKG_BUILD_DIR:=$(BUILD_DIR)/amxb_usp-sah-next_v5.3.2
+PKG_SOURCE:=amxb_usp-sah-next_v5.3.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp/-/archive/sah-next_v5.3.3
+PKG_HASH:=1792f91a61666541f457e92a6b3a2921b1c2e4389ed2805e689b7c737972f54f
+PKG_BUILD_DIR:=$(BUILD_DIR)/amxb_usp-sah-next_v5.3.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
