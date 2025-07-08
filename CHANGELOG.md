@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.18 - 2025-07-08(12:07:10 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [AppAmor][uspagent] AppAmor profile should be created for uspagent
+
 ## Release v10.0.17 - 2025-07-08(08:46:01 +0000)
 
 ### Other
