@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.17 - 2025-07-08(08:46:01 +0000)
+
+### Other
+
+- [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): [libimtp] test not working
+- [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): adapt synt to prpl-foundation
+
 ## Release v10.0.16 - 2025-06-24(19:32:15 +0000)
 
 ### Other
