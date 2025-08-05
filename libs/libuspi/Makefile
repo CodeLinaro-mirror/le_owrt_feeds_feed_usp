@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libuspi
-PKG_VERSION:=sah-next_v1.1.2
+PKG_VERSION:=sah-next_v1.1.3
 SHORT_DESCRIPTION:=setting up and managing IMTP connections
 
-PKG_SOURCE:=libuspi-sah-next_v1.1.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libuspi/-/archive/sah-next_v1.1.2
-PKG_HASH:=286181f680b0627d863729c8224ce7a6631249ace82eabb9eb60012e1242335b
-PKG_BUILD_DIR:=$(BUILD_DIR)/libuspi-sah-next_v1.1.2
+PKG_SOURCE:=libuspi-sah-next_v1.1.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libuspi/-/archive/sah-next_v1.1.3
+PKG_HASH:=fbbadc401943f1000ba371ed4c30f69040255944fbf672648c2f5559fd0b6246
+PKG_BUILD_DIR:=$(BUILD_DIR)/libuspi-sah-next_v1.1.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
