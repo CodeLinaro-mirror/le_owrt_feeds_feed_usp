@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.19 - 2025-08-06(10:33:29 +0000)
+
+### Other
+
+- [libuspi](https://gitlab.com/prpl-foundation/components/core/libraries/libuspi): [AMXB_USP] Events are not raised unless a configuration is set
+
 ## Release v10.0.18 - 2025-07-08(12:07:10 +0000)
 
 ### Other
