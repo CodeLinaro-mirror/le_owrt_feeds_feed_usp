@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.21 - 2025-08-11(14:50:33 +0000)
+
+### Other
+
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): [REGRESSION][CDROUTER][USP] usp_conformance_1_96 : The box...
+
 ## Release v10.0.20 - 2025-08-07(07:16:37 +0000)
 
 ## Release v10.0.19 - 2025-08-06(10:33:29 +0000)
