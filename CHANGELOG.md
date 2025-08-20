@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.22 - 2025-08-20(11:50:01 +0000)
+
+### Other
+
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): - USP Agent:[USP] remove prefix from parameter LocalAgent.Controller.{i}.LastSession
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): - USP Agent:[USP] remove prefix from parameter LocalAgent.Controller.{i}.LastSession
+
 ## Release v10.0.21 - 2025-08-11(14:50:33 +0000)
 
 ### Other
