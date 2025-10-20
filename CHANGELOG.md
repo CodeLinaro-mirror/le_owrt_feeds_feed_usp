@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.24 - 2025-10-20(19:42:30 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [AMXB_USP] Events are not raised unless a configuration is set
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): — [AMXB_USP] Async Asynchronous key is not used
+
 ## Release v10.0.23 - 2025-10-03(11:34:35 +0000)
 
 ## Release v10.0.22 - 2025-08-20(11:50:01 +0000)
