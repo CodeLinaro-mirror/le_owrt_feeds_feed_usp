@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.25 - 2025-10-22(13:57:23 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): - USP Agent: [USP]  Fully handle asynchronous function calls
+
 ## Release v10.0.24 - 2025-10-20(19:42:30 +0000)
 
 ### Other
