@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.26 - 2025-10-27(19:29:26 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [SAFRAN_PRPL][AppArmor]AppArmor issue in the /etc/init.d/uspagent profile
+
 ## Release v10.0.25 - 2025-10-22(13:57:23 +0000)
 
 ### Other
