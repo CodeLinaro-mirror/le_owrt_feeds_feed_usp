@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.27 - 2025-11-05(14:55:24 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): - USP Agent: No error code returned when getSupportedDM on unsupported object
+
 ## Release v10.0.26 - 2025-10-27(19:29:26 +0000)
 
 ### Other
