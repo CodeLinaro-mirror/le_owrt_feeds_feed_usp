@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.28 - 2025-11-18(16:10:29 +0000)
+
+### Other
+
+- [mod-usp-onboarding](https://gitlab.softathome.com/ext_prpl/components/mod-usp-onboarding): - amx/usp/modules/mod_usp_onboarding/scripts/onboarding_boot_event does not include a stop function
+
 ## Release v10.0.27 - 2025-11-05(14:55:24 +0000)
 
 ### Other
