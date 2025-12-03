@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v10.0.30 - 2025-12-03(19:09:55 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): prplMesh: no accesspoint object events received
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): - Many IBs sending `Boot!` Events without being rebooted
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): - Many IBs sending `Boot!` Events without being rebooted
+
 ## Release v10.0.29 - 2025-11-24(20:18:20 +0000)
 
 ## Release v10.0.28 - 2025-11-18(16:10:29 +0000)
