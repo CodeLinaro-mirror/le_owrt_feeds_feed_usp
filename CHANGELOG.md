@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.1 - 2025-12-16(11:40:34 +0000)
+
+### Other
+
+- [libuspprotobuf](https://gitlab.com/prpl-foundation/components/core/libraries/libprotobuf): adapt synt to prpl-foundation
+- [libuspprotobuf](https://gitlab.com/prpl-foundation/components/core/libraries/libprotobuf): [BAF][template] Version might be wrongly set in makefile.inc.j2
+
 ## Release v11.0.0 - 2025-12-03(19:49:08 +0000)
 
 ### Removed
