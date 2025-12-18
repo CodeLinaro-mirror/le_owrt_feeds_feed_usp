@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libuspprotobuf
-PKG_VERSION:=sah-next_v0.5.4
+PKG_VERSION:=sah-next-4.1_v0.1.0
 SHORT_DESCRIPTION:=This library generates C code from 
 
-PKG_SOURCE:=libprotobuf-sah-next_v0.5.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libprotobuf/-/archive/sah-next_v0.5.4
-PKG_HASH:=0001f11849937a7412c5a9e56572470b2c6f8182c583083b16c297fc5f34488c
-PKG_BUILD_DIR:=$(BUILD_DIR)/libprotobuf-sah-next_v0.5.4
+PKG_SOURCE:=libprotobuf-sah-next-4.1_v0.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libprotobuf/-/archive/sah-next-4.1_v0.1.0
+PKG_HASH:=b663c3db8a20dd989aa04ed69ea5d2ad6f6cb6c1d22f7cd09ebea3e06df49307
+PKG_BUILD_DIR:=$(BUILD_DIR)/libprotobuf-sah-next-4.1_v0.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-3-Clause
 PKG_LICENSE_FILES:=LICENSE
