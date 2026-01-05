@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.4 - 2026-01-05(17:56:06 +0000)
+
+### Other
+
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): Add support for USP to ba-cli
+
 ## Release v11.0.3 - 2025-12-18(15:09:49 +0000)
 
 ## Release v11.0.2 - 2025-12-16(15:15:09 +0000)
