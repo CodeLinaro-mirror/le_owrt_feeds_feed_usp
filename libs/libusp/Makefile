@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=converts protobuf messages to amx variants
 
 PKG_SOURCE:=libusp-sah-next-4.1_v0.1.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libusp/-/archive/sah-next-4.1_v0.1.0
-PKG_HASH:=skip
+PKG_HASH:=32dd26d6ddda166eac6e97d649cbf53f5c65435b7b336caee5afe638ca3bfd8e
 PKG_BUILD_DIR:=$(BUILD_DIR)/libusp-sah-next-4.1_v0.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent BSD-3-Clause
