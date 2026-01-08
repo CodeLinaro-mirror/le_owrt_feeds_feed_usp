@@ -8,7 +8,7 @@ PROG=/usr/bin/obuspa
 CONFIGURATION=obuspa
 
 RESET_FILE="/etc/config/obuspa_param_reset.txt"
-SQL_DB_FILE="/etc/obuspa.db"
+SQL_DB_FILE="/etc/config/obuspa.db"
 CERT="/etc/ssl/cert.pem"
 
 register_service()
