@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mod-amxb-usp
-PKG_VERSION:=sah-next_v5.4.3
+PKG_VERSION:=sah-next_v5.5.0
 SHORT_DESCRIPTION:=USP backend implementation for amxb
 
-PKG_SOURCE:=amxb_usp-sah-next_v5.4.3.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp/-/archive/sah-next_v5.4.3
-PKG_HASH:=7ba6ad4b485df9a9d819a524124912acfb1b0534ed3e132866228343500da907
-PKG_BUILD_DIR:=$(BUILD_DIR)/amxb_usp-sah-next_v5.4.3
+PKG_SOURCE:=amxb_usp-sah-next_v5.5.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp/-/archive/sah-next_v5.5.0
+PKG_HASH:=acd04f0875334fcb8cb7c6cc3ac0e78154fb2e2600684a47be28a208ec2222d0
+PKG_BUILD_DIR:=$(BUILD_DIR)/amxb_usp-sah-next_v5.5.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
