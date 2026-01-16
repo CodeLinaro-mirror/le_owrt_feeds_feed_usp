@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.10 - 2026-01-16(20:51:42 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [ambiorix][ba_usp] How to expose the CommandKey information from a USP Operate call
+
 ## Release v11.0.9 - 2026-01-15(20:19:59 +0000)
 
 ### Other
