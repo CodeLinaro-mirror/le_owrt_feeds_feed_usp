@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.11 - 2026-01-20(09:06:28 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [USP-BE] Allow global disable of capabilities and registration
+
 ## Release v11.0.10 - 2026-01-16(20:51:42 +0000)
 
 ### Other
