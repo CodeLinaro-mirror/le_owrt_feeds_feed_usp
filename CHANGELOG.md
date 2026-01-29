@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.12 - 2026-01-29(07:39:48 +0000)
+
+### Other
+
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): USP Backend: Incorrect type casting for numeric only string values
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): USP Backend: Incorrect type casting for numeric only string values
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [AMXB-USP] Errors reported when amxb_set_config is called twice
+
 ## Release v11.0.11 - 2026-01-20(09:06:28 +0000)
 
 ### Other
