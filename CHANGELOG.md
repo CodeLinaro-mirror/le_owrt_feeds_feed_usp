@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.13 - 2026-01-31(08:07:26 +0000)
+
+### Other
+
+- [mod-usp-onboarding](https://gitlab.softathome.com/ext_prpl/components/mod-usp-onboarding): LocalAgent.X_SOFTATHOME-COM_OnBoarding.Status changes to error after upgrade
+
 ## Release v11.0.12 - 2026-01-29(07:39:48 +0000)
 
 ### Other
