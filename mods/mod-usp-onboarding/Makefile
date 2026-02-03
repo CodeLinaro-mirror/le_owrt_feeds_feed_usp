@@ -4,11 +4,11 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=mod-usp-onboarding
-PKG_VERSION:=v1.4.2
+PKG_VERSION:=v1.4.3
 SHORT_DESCRIPTION:=This module handles the typical onboarding procedure of a USP Controller after a first boot
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v1.4.2
+PKG_SOURCE_VERSION:=v1.4.3
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/mod-usp-onboarding.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
