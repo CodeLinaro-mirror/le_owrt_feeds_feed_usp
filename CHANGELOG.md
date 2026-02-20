@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.16 - 2026-02-20(16:41:39 +0000)
+
+### Other
+
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): [USP] Adapt USP backend to use new translation functions
+
 ## Release v11.0.15 - 2026-02-10(10:02:52 +0000)
 
 ## Release v11.0.14 - 2026-02-04(07:50:10 +0000)
