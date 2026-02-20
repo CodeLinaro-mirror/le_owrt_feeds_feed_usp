@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libusp/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libusp
-PKG_VERSION:=sah-next-4.1_v1.0.0
+PKG_VERSION:=sah-next-4.1_v1.0.1
 SHORT_DESCRIPTION:=converts protobuf messages to amx variants
 
-PKG_SOURCE:=libusp-sah-next-4.1_v1.0.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libusp/-/archive/sah-next-4.1_v1.0.0
-PKG_HASH:=381761a45ddca482402c5f399f07826587ecebb826556a3888c8971dcee079d0
-PKG_BUILD_DIR:=$(BUILD_DIR)/libusp-sah-next-4.1_v1.0.0
+PKG_SOURCE:=libusp-sah-next-4.1_v1.0.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libusp/-/archive/sah-next-4.1_v1.0.1
+PKG_HASH:=3e5c725e580c57a3246b1a996cbcefeefd5a1674169d3cdcab6afaecf4f28aa3
+PKG_BUILD_DIR:=$(BUILD_DIR)/libusp-sah-next-4.1_v1.0.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent BSD-3-Clause
 PKG_LICENSE_FILES:=LICENSE.BSD2 LICENSE.BSD3
