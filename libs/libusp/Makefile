@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libusp
-PKG_VERSION:=sah-next-4.1_v1.0.1
+PKG_VERSION:=sah-next-4.1_v2.9.1
 SHORT_DESCRIPTION:=converts protobuf messages to amx variants
 
-PKG_SOURCE:=libusp-sah-next-4.1_v1.0.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libusp/-/archive/sah-next-4.1_v1.0.1
-PKG_HASH:=3e5c725e580c57a3246b1a996cbcefeefd5a1674169d3cdcab6afaecf4f28aa3
-PKG_BUILD_DIR:=$(BUILD_DIR)/libusp-sah-next-4.1_v1.0.1
+PKG_SOURCE:=libusp-sah-next-4.1_v2.9.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libusp/-/archive/sah-next-4.1_v2.9.1
+PKG_HASH:=c5daad19985ca14b27393df61a3c0b5e24392d0f45ccb65b474a643a13fd2bb9
+PKG_BUILD_DIR:=$(BUILD_DIR)/libusp-sah-next-4.1_v2.9.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent BSD-3-Clause
 PKG_LICENSE_FILES:=LICENSE.BSD2 LICENSE.BSD3
