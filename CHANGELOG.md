@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.17 - 2026-02-24(18:12:55 +0000)
+
+### Other
+
+- [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): [libimtp] Missing check for recvmsg in imtp_connection_read_frame_fd
+
 ## Release v11.0.16 - 2026-02-20(16:41:39 +0000)
 
 ### Other
