@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.19 - 2026-02-26(07:16:57 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [AMXB-USP] Fix segmentation fault in has
+
 ## Release v11.0.18 - 2026-02-24(20:42:32 +0000)
 
 ## Release v11.0.17 - 2026-02-24(18:12:55 +0000)
