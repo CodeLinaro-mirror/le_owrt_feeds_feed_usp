@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.21 - 2026-03-02(07:15:33 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): TR181-DeviceInfo "TransferComplete" notification support for FW Upgrade scenario
+
 ## Release v11.0.20 - 2026-02-26(15:55:33 +0000)
 
 ### Other
