@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.22 - 2026-03-03(15:04:32 +0000)
+
+### Other
+
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): [MQTT] Incorrect EndpointID in LocalAgent
+
 ## Release v11.0.21 - 2026-03-02(07:15:33 +0000)
 
 ### Other
