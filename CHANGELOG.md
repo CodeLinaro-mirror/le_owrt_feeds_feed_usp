@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.23 - 2026-03-04(18:16:22 +0000)
+
+### Other
+
+- [tr181-localagent](https://gitlab.com/soft.at.home/usp/applications/tr181-localagent): [tr181-localagent] Events are sent for the LastSession parameter
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [USPC] Missing cli event for notifications
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): USP Backend: Incorrect type casting for numeric only string values
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Don't disconnect UDS connection on MQTT client disable
+
 ## Release v11.0.22 - 2026-03-03(15:04:32 +0000)
 
 ### Other
