@@ -1,4 +1,4 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.0)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp/-/blob/main/baf.yml instead
 config PACKAGE_mod-amxb-usp
     tristate
