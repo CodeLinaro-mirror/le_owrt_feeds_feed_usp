@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.26 - 2026-03-10(14:36:28 +0000)
+
+### Other
+
+- [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): - SOCK_STREAM: Partial Write Handling and Non-Blocking Flag Propagation
+
 ## Release v11.0.25 - 2026-03-06(08:50:47 +0000)
 
 ## Release v11.0.24 - 2026-03-05(10:25:25 +0000)
