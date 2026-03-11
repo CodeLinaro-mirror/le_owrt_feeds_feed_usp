@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.27 - 2026-03-11(16:59:41 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [AMXB-USP] Promise must be rejected and canceled on timeout
+
 ## Release v11.0.26 - 2026-03-10(14:36:28 +0000)
 
 ### Other
