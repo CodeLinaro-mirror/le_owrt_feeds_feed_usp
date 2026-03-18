@@ -11,10 +11,6 @@ RESET_FILE="/etc/config/obuspa_param_reset.txt"
 SQL_DB_FILE="/etc/config/obuspa.db"
 CERT="/etc/ssl/cert.pem"
 
-if [ ! -f "/etc/config/obuspa_enabled" ]; then
-	exit 0
-fi
-
 register_service()
 {
 	procd_open_instance ${CONFIGURATION}
@@ -48,6 +44,7 @@ register_service()
 }
 
 start_service() {
+	[ -f /etc/config/obuspa_enabled ] || return 0
 	mkdir -p /var/run/usp/
 	register_service
 }
