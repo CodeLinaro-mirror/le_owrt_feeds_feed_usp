@@ -1,4 +1,4 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.4)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
 # WARNING: You should contribute changes to https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/blob/main/baf.yml instead
 config PACKAGE_usp-endpoint
     tristate
