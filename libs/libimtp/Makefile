@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libimtp/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libimtp
-RAW_VERSION:=sah-next-4.1_v2.6.1
+RAW_VERSION:=sah-next-4.2_v2.6.1
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=connects two USP endpoints over Unix domain socket
 
-PKG_SOURCE:=libimtp-sah-next-4.1_v2.6.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libimtp/-/archive/sah-next-4.1_v2.6.1
-PKG_HASH:=f2f4c41171d94f5163622095ac2abaf067b6859a3f09307eeb212cc57ceebf37
-PKG_BUILD_DIR:=$(BUILD_DIR)/libimtp-sah-next-4.1_v2.6.1
+PKG_SOURCE:=libimtp-sah-next-4.2_v2.6.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libimtp/-/archive/sah-next-4.2_v2.6.1
+PKG_HASH:=c4903104fde1541dbd3503d5817d7ca4d4beffacffbc7017a33725a408f749fe
+PKG_BUILD_DIR:=$(BUILD_DIR)/libimtp-sah-next-4.2_v2.6.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
