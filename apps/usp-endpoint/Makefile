@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.4)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.39.4)
 # WARNING: You should contribute changes to https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=usp-endpoint
-PKG_VERSION:=v2.0.12
+PKG_VERSION:=sah-next-4.1-lts_v2.0.12
 SHORT_DESCRIPTION:=Mini USP agent or controller
 
-PKG_SOURCE:=usp-endpoint-v2.0.12.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/v2.0.12
-PKG_HASH:=aed16c0da250b1c94290077082e8e20dcfc44030307b6c67fb4d3aabc5fb426b
-PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-v2.0.12
+PKG_SOURCE:=usp-endpoint-sah-next-4.1-lts_v2.0.12.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/sah-next-4.1-lts_v2.0.12
+PKG_HASH:=4d2ee8a18afc2940d505abb0fe4d936b41bff8bb06211dd5c6fb31b40d207600
+PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-sah-next-4.1-lts_v2.0.12
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
