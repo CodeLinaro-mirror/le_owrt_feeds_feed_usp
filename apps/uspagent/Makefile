@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.40.3)
 # WARNING: You should contribute changes to https://gitlab.com/soft.at.home/usp/applications/uspagent/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=uspagent
-RAW_VERSION:=v5.4.2
+RAW_VERSION:=sah-next-4.1-lts_v5.4.2
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=USP agent as specified by TR-369
 
-PKG_SOURCE:=uspagent-v5.4.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/v5.4.2
-PKG_HASH:=97838bd7cde7c7d997222b99bbba68fc84a306b39e776863c2b632778706dbd2
-PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-v5.4.2
+PKG_SOURCE:=uspagent-sah-next-4.1-lts_v5.4.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/sah-next-4.1-lts_v5.4.2
+PKG_HASH:=680622b821fbb69524e8b1070a31aa9d63d3da0d62bf363e7f2bd4bfbd2c333d
+PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-sah-next-4.1-lts_v5.4.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
