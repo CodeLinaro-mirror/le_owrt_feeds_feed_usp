@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.39.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/libraries/libprotobuf/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libuspprotobuf
-PKG_VERSION:=sah-next-4.1_v0.5.4
+PKG_VERSION:=sah-next-4.1-lts_v0.5.4
 SHORT_DESCRIPTION:=This library generates C code from 
 
-PKG_SOURCE:=libprotobuf-sah-next-4.1_v0.5.4.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libprotobuf/-/archive/sah-next-4.1_v0.5.4
-PKG_HASH:=ea0e8b2b9cb190e8edc06b222e63f40f80d41d600c28a1484476421f0d613b02
-PKG_BUILD_DIR:=$(BUILD_DIR)/libprotobuf-sah-next-4.1_v0.5.4
+PKG_SOURCE:=libprotobuf-sah-next-4.1-lts_v0.5.4.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libprotobuf/-/archive/sah-next-4.1-lts_v0.5.4
+PKG_HASH:=36dde0b6b9de85a8ffc94f1e1891892abc0eba43811ee38119c83e3521c652b3
+PKG_BUILD_DIR:=$(BUILD_DIR)/libprotobuf-sah-next-4.1-lts_v0.5.4
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-3-Clause
 PKG_LICENSE_FILES:=LICENSE
