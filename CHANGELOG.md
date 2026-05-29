@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.47 - 2026-05-29(14:07:52 +0000)
+
+### Other
+
+- [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): libimtp does not fully support non-blocking I/O
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): Add EAGAIN/partial I/O handling using new libimtp flush API
+
 ## Release v11.0.46 - 2026-05-11(16:22:47 +0000)
 
 ## Release v11.0.45 - 2026-04-24(19:50:02 +0000)
