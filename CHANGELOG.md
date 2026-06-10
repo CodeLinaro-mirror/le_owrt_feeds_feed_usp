@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.48 - 2026-06-10(12:00:20 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [uspagent] Crash when removing Periodic! subscription
+
 ## Release v11.0.47 - 2026-05-29(14:07:52 +0000)
 
 ### Other
