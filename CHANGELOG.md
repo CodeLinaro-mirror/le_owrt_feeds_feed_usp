@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.49 - 2026-06-11(17:22:59 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Allow_partial false not yet supported
+
 ## Release v11.0.48 - 2026-06-10(12:00:20 +0000)
 
 ### Other
