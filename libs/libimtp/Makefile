@@ -3,14 +3,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libimtp
-RAW_VERSION:=sah-next-4.1-lts_v2.6.2
+RAW_VERSION:=sah-next-4.1-lts_v2.6.3
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=connects two USP endpoints over Unix domain socket
 
-PKG_SOURCE:=libimtp-sah-next-4.1-lts_v2.6.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libimtp/-/archive/sah-next-4.1-lts_v2.6.2
-PKG_HASH:=f6ffbf8b0f2df4438ae3ba94657ae390c05e014e442dec549374b83b4a54adea
-PKG_BUILD_DIR:=$(BUILD_DIR)/libimtp-sah-next-4.1-lts_v2.6.2
+PKG_SOURCE:=libimtp-sah-next-4.1-lts_v2.6.3.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/libimtp/-/archive/sah-next-4.1-lts_v2.6.3
+PKG_HASH:=f904d80f7443c90a4bef3dfd4fe3a55a108151e373f2a38506f9cb8469c48956
+PKG_BUILD_DIR:=$(BUILD_DIR)/libimtp-sah-next-4.1-lts_v2.6.3
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
