@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v11.0.50 - 2026-06-17(18:31:58 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Bulkdata controller matching is broken
+
 ## Release v11.0.49 - 2026-06-11(17:22:59 +0000)
 
 ### Other
