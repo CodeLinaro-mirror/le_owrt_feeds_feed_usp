@@ -8,18 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## Release sah-next-4.1-lts_v11.1.4 - 2026-06-15(09:34:16 +0000)
+## Release lts_prplos_4.1.0_v11.1.4 - 2026-06-15(09:34:16 +0000)
 
 ### Other
 
 - [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): libimtp does not fully support non-blocking I/O
 - [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): libimtp does not fully support non-blocking I/O (HOP-12423)
 
-## Release sah-next-4.1-lts_v11.1.3 - 2026-04-28(08:34:32 +0000)
+## Release lts_prplos_4.1.0_v11.1.3 - 2026-04-28(08:34:32 +0000)
 
-## Release sah-next-4.1-lts_v11.1.2 - 2026-04-27(09:53:03 +0000)
+## Release lts_prplos_4.1.0_v11.1.2 - 2026-04-27(09:53:03 +0000)
 
-## Release sah-next-4.1-lts_v11.1.1 - 2026-04-23(14:28:47 +0000)
+## Release lts_prplos_4.1.0_v11.1.1 - 2026-04-23(14:28:47 +0000)
 
 ## Release v11.0.37 - 2026-03-26(16:19:05 +0000)
 

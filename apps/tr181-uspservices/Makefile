@@ -3,14 +3,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-uspservices
-RAW_VERSION:=sah-next-4.1-lts_v0.4.0
+RAW_VERSION:=lts_prplos_4.1.0_v0.4.0
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=TR-181 USPServices application
 
-PKG_SOURCE:=tr181-uspservices-sah-next-4.1-lts_v0.4.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-uspservices/-/archive/sah-next-4.1-lts_v0.4.0
+PKG_SOURCE:=tr181-uspservices-lts_prplos_4.1.0_v0.4.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/tr181-uspservices/-/archive/lts_prplos_4.1.0_v0.4.0
 PKG_HASH:=9d8c99c91af35be41d8a65f9bc29a474a92d94fa69d26c91003a8c25847c986b
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uspservices-sah-next-4.1-lts_v0.4.0
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-uspservices-lts_prplos_4.1.0_v0.4.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE

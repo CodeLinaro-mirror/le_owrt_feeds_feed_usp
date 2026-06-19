@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=usp-endpoint
-PKG_VERSION:=sah-next-4.1-lts_v2.0.12
+PKG_VERSION:=lts_prplos_4.1.0_v2.0.12
 SHORT_DESCRIPTION:=Mini USP agent or controller
 
-PKG_SOURCE:=usp-endpoint-sah-next-4.1-lts_v2.0.12.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/sah-next-4.1-lts_v2.0.12
+PKG_SOURCE:=usp-endpoint-lts_prplos_4.1.0_v2.0.12.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/usp-endpoint/-/archive/lts_prplos_4.1.0_v2.0.12
 PKG_HASH:=4d2ee8a18afc2940d505abb0fe4d936b41bff8bb06211dd5c6fb31b40d207600
-PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-sah-next-4.1-lts_v2.0.12
+PKG_BUILD_DIR:=$(BUILD_DIR)/usp-endpoint-lts_prplos_4.1.0_v2.0.12
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE

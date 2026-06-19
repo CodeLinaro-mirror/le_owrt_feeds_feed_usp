@@ -4,12 +4,12 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=mod-usp-onboarding
-RAW_VERSION:=sah-next-4.1-lts_v1.4.3
+RAW_VERSION:=lts_prplos_4.1.0_v1.4.3
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=This module handles the typical onboarding procedure of a USP Controller after a first boot
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=sah-next-4.1-lts_v1.4.3
+PKG_SOURCE_VERSION:=lts_prplos_4.1.0_v1.4.3
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/mod-usp-onboarding.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)

@@ -3,14 +3,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=uspagent
-RAW_VERSION:=sah-next-4.1-lts_v5.4.2
+RAW_VERSION:=lts_prplos_4.1.0_v5.4.2
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=USP agent as specified by TR-369
 
-PKG_SOURCE:=uspagent-sah-next-4.1-lts_v5.4.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/sah-next-4.1-lts_v5.4.2
+PKG_SOURCE:=uspagent-lts_prplos_4.1.0_v5.4.2.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/soft.at.home/usp/applications/uspagent/-/archive/lts_prplos_4.1.0_v5.4.2
 PKG_HASH:=680622b821fbb69524e8b1070a31aa9d63d3da0d62bf363e7f2bd4bfbd2c333d
-PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-sah-next-4.1-lts_v5.4.2
+PKG_BUILD_DIR:=$(BUILD_DIR)/uspagent-lts_prplos_4.1.0_v5.4.2
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
