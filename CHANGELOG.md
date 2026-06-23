@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release lts_prplos_4.1.0_v11.1.5 - 2026-06-23(12:11:06 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): Add EAGAIN/partial I/O handling using new libimtp flush API
+
 ## Release lts_prplos_4.1.0_v11.1.4 - 2026-06-15(09:34:16 +0000)
 
 ### Other
